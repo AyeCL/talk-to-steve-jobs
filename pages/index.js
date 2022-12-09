@@ -26,26 +26,10 @@ export default function Home() {
             }
         }, [input]);
 
-
-    // async function handleSubmit(e) {
-    //     e.preventDefault()
-    //     setCompletion("Loading...")
-    //     const response = await fetch('/api/conversation', {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //         },
-    //         body: JSON.stringify({input: input}),
-    //     })
-    //     const data = await response.json()
-    //     setCompletion(data.result)
-    //     setInput("")
-    // }
-
     return (
         <div className={styles.container} style={{backgroundColor: 'black',}}>
             <Head>
-                <title>Steve Jobs Chatbot</title>
+                <title>Talk to Steve Jobs</title>
                 <meta name="description" content="Talk to Steve Jobs!" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
